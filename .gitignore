@@ -1,0 +1,26 @@
+# PYTHON
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# LOCAL DATA AND OUTPUTS
+trash_images/
+data/trash_images/
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+*.csv
+*.zip
+gradcam_outputs/
+transfer_attention_outputs/
+output/
+outputs/
+
+# CREDENTIALS
+.env
+.env.*
+*.key
+*.pem
